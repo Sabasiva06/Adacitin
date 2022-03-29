@@ -12,6 +12,12 @@ public class Facebook extends BaseClasss {
 
 		LoginPage loginPage = new LoginPage();
 		loginPage.loginPage("hijavaa", "welcomejava");
+		WebElement txtUserName = loginPage.getTxtUserName();
+		enterText(txtUserName, "welocmee");
+		WebElement txtPassword = loginPage.getTxtPassword();
+		enterText(txtPassword, "welocmeee");
+		WebElement btnLogin = loginPage.getBtnLogin();
+		buttonClick(btnLogin);
 
 	}
 
