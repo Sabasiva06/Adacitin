@@ -12,6 +12,10 @@ public class Facebook extends BaseClasss {
 
 		LoginPage loginPage = new LoginPage();
 		loginPage.loginPage("hijavaa", "welcomejava");
+		LoginPage page = new LoginPage();
+		page.loginPage("welocme", "python");
+		LoginPage loginPage2 = new LoginPage();
+		loginPage2.loginPage("username", "password");
 
 	}
 
